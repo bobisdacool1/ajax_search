@@ -18,6 +18,6 @@ $('form').on('submit', function (event) {
             address: $('input[name="address"]').val()
         }
     }).done(function (msg) {
-
+        $('#fileSentModal').modal('show')
     });
 });
